@@ -1,4 +1,5 @@
 def string_upper(string):
+    """Making input string upper case"""
     return str(string).upper()
 
 
