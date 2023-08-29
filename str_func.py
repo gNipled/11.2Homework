@@ -1,3 +1,8 @@
 def string_upper(string):
-    """Changing all letters of input string to upper case"""
+    """Making input string upper case"""
     return str(string).upper()
+
+
+def string_first_letter_upper(string):
+    """Making first letter of input string upper case"""
+    return str(string).title()
